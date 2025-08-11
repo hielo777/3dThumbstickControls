@@ -6,8 +6,7 @@ With 3 events, and some clever setting, the game can set the thumbstick controll
 
 ## Changes:
 
-- Better Rotation of the 3D Object
-I left 2 3D objects so the difference between the way to handle their rotation looks like.
-In the next version I will eliminate the second object, and work on collisions, that way this would be the base of a 3D type of game.
+- Added solid objects
+This is to showcase the basics of a possible 3D based game using the thumbstick.
 
 - Re created the exported game files

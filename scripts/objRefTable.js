@@ -9,6 +9,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Tilemap,
 		C3.Plugins.Touch,
 		C3.Behaviors.Pin,
+		C3.Behaviors.solid,
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.Camera3D.Acts.LookAtPosition,
 		C3.Plugins.Sprite.Exps.X,
@@ -39,7 +40,9 @@ self.C3_JsPropNameTable = [
 	{Touch: 0},
 	{playerBase: 0},
 	{Pin: 0},
-	{"3DShape": 0},
+	{Player3D: 0},
+	{Solid: 0},
+	{"3DShape2": 0},
 	{cameraHeight: 0},
 	{speedPlayer: 0}
 ];
@@ -53,5 +56,6 @@ self.InstanceType = {
 	Tilemap: class extends self.ITilemapInstance {},
 	Touch: class extends self.IInstance {},
 	playerBase: class extends self.ISpriteInstance {},
-	_3DShape: class extends self.I3DShapeInstance {}
+	Player3D: class extends self.I3DShapeInstance {},
+	_3DShape2: class extends self.I3DShapeInstance {}
 }
