@@ -5,8 +5,17 @@ This project showcases how to create a simple and effective thumbstick controlle
 With 3 events, and some clever setting, the game can set the thumbstick controller, that can be used in any touch-screen device.
 
 ## Changes:
+- [x] Basic thumbstick functionality
 
-- Added solid objects
-This is to showcase the basics of a possible 3D based game using the thumbstick.
+- [x] Added tiled background to highlight 3D object movement
 
-- Re created the exported game files
+- [x] Improved the rotation of the 3D object reflecting the thumbstick movement
+
+- [x] Added solid objects. This is to showcase the basics of a possible 3D based game using the thumbstick
+
+- [x] Re created the exported game files
+
+## To Do
+- [ ] Integrate with basic 3D slopes
+- [ ] Add second thumbstick functionality. Perhaps to control the camera to orbit the 3D object representing the main character
+- [ ] Comment the .c3p document to clarify functionality
