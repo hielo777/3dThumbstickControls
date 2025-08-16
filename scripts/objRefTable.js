@@ -2,12 +2,12 @@ const C3 = self.C3;
 self.C3_GetObjectRefTable = function () {
 	return [
 		C3.Plugins.Camera3D,
-		C3.Plugins.Shape3D,
-		C3.Behaviors.EightDir,
 		C3.Plugins.Sprite,
 		C3.Behaviors.DragnDrop,
 		C3.Plugins.Tilemap,
 		C3.Plugins.Touch,
+		C3.Behaviors.EightDir,
+		C3.Plugins.Shape3D,
 		C3.Behaviors.Pin,
 		C3.Behaviors.solid,
 		C3.Plugins.System.Cnds.EveryTick,
@@ -23,13 +23,22 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.DragnDrop.Cnds.OnDrop,
 		C3.Plugins.Sprite.Acts.SetPos,
 		C3.Plugins.System.Cnds.OnLayoutStart,
-		C3.Behaviors.Pin.Acts.PinByProperties
+		C3.Behaviors.Pin.Acts.PinByProperties,
+		C3.Plugins.Shape3D.Cnds.IsOverlapping,
+		C3.Plugins.System.Acts.SetVar,
+		C3.Plugins.Shape3D.Exps.FaceImagePointX,
+		C3.Plugins.Shape3D.Exps.Y,
+		C3.Plugins.Shape3D.Exps.FaceImagePointY,
+		C3.Plugins.Shape3D.Exps.X,
+		C3.Plugins.System.Cnds.CompareVar,
+		C3.Plugins.Shape3D.Acts.SetZElevation,
+		C3.Plugins.Shape3D.Exps.Width,
+		C3.Plugins.Shape3D.Exps.ZHeight,
+		C3.Plugins.Shape3D.Exps.ZElevation
 	];
 };
 self.C3_JsPropNameTable = [
 	{"3DCamera": 0},
-	{"8Direction": 0},
-	{Player: 0},
 	{thumbstick2: 0},
 	{DragDrop: 0},
 	{thumbstick01: 0},
@@ -38,18 +47,22 @@ self.C3_JsPropNameTable = [
 	{directionMarker: 0},
 	{Tilemap: 0},
 	{Touch: 0},
+	{"8Direction": 0},
 	{playerBase: 0},
 	{Pin: 0},
 	{Player3D: 0},
 	{Solid: 0},
 	{"3DShape2": 0},
+	{slope: 0},
 	{cameraHeight: 0},
-	{speedPlayer: 0}
+	{speedPlayer: 0},
+	{distBottom: 0},
+	{distTop: 0},
+	{slopeWidth: 0}
 ];
 
 self.InstanceType = {
 	_3DCamera: class extends self.IInstance {},
-	Player: class extends self.I3DShapeInstance {},
 	thumbstick2: class extends self.ISpriteInstance {},
 	thumbstick01: class extends self.ISpriteInstance {},
 	directionMarker: class extends self.ISpriteInstance {},
@@ -57,5 +70,6 @@ self.InstanceType = {
 	Touch: class extends self.IInstance {},
 	playerBase: class extends self.ISpriteInstance {},
 	Player3D: class extends self.I3DShapeInstance {},
-	_3DShape2: class extends self.I3DShapeInstance {}
+	_3DShape2: class extends self.I3DShapeInstance {},
+	slope: class extends self.I3DShapeInstance {}
 }
