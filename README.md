@@ -4,6 +4,20 @@ This project showcases how to create a simple and effective thumbstick controlle
 
 With 3 events, and some clever setting, the game can set the thumbstick controller, that can be used in any touch-screen device.
 
+## How it works:
+
+The entire system relies on the interaction of 2 different Construct 3 objects:
+- The sprite named **thumbstick01**
+- The 8 instances of the sprite named **directionMarker**
+
+The **thumbstick01** has the *"Drag and Drop"* behavior and can be moved on the screen by the player.
+
+The 8 **directionMarker** sprites are set in a circle around **thumbstick01** at 45 degrees inclination difference. 
+
+Each **directionMarker** has 2 *Instance Variables:* vx and vy. These variables have 3 possible values: -1, 0, and 1. Each combination indicates the movement in the x and y direction that every **directionMarker** represents.
+
+When the player moves the **thumbstick01** C3 finds out which **directionMarker** is the closest to **thumbstick01** and uses the vx and vy variables to figure out the correct direction for the 3D Object named **Player3D**. Then, in the event #2, C3 sets the right values for the **Player3D**'s *8Direction* Vactor X and Vectore Y, which in turn moves the 3D object.
+
 ## Changes:
 - [x] Basic thumbstick functionality
 
@@ -22,4 +36,4 @@ With 3 events, and some clever setting, the game can set the thumbstick controll
 
 ## To Do
 - [ ] Add second thumbstick functionality. Perhaps to control the camera to orbit the 3D object representing the main character
-- [ ] Comment the .c3p document to clarify functionality
+- [ ] Add comments to the .c3p document to clarify functionality
