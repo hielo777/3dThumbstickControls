@@ -19,7 +19,9 @@ Each **directionMarker** has 2 *Instance Variables:* vx and vy. These variables 
 When the player moves the **thumbstick01** C3 finds out which **directionMarker** is the closest to **thumbstick01** and uses the vx and vy variables to figure out the correct direction for the 3D Object named **Player3D**. Then, in the event #2, C3 sets the right values for the **Player3D**'s *8Direction* Vactor X and Vectore Y, which in turn moves the 3D object.
 
 ## Changes:
-- [x] Created a folder with the basic thumbstick functionality, eliminating the slopes. This will help integration with other games.
+- [x] The `Basic Version` folder contains two versions focused solely on basic thumbstick functionality, with slopes and other refinements removed. These simplified builds make it easier to integrate the system into other games.
+
+- [x] Moved all the html files to the `html export files` folder for easier project navigation
 
 - [x] Basic thumbstick functionality
 
