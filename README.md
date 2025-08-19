@@ -16,10 +16,11 @@ The 8 **directionMarker** sprites are set in a circle around **thumbstick01** at
 
 Each **directionMarker** has 2 *Instance Variables:* vx and vy. These variables have 3 possible values: -1, 0, and 1. Each combination indicates the movement in the x and y direction that every **directionMarker** represents.
 
-When the player moves the **thumbstick01** C3 finds out which **directionMarker** is the closest to **thumbstick01** and uses the vx and vy variables to figure out the correct direction for the 3D Object named **Player3D**. Then, in the event #2, C3 sets the right values for the **Player3D**'s *8Direction* Vactor X and Vectore Y, which in turn moves the 3D object.
+When the player moves **thumbstick01**, C3 determines which **directionMarker** is closest and uses the vx and vy variables to calculate the correct movement direction for the 3D object **Player3D**. In event #2, C3 then assigns these values to **Player3D**’s *8Direction* Vector X and Vector Y properties, which move the 3D object accordingly.
+
 
 ## Changes:
-- [x] The `Basic Version` folder contains two versions focused solely on basic thumbstick functionality, with slopes and other refinements removed. These simplified builds make it easier to integrate the system into other games.
+- [x] The `Basic Version` folder includes two builds that focus exclusively on thumbstick functionality, with slopes and other refinements removed. These streamlined versions are designed for easier integration into other games
 
 - [x] Moved all the html files to the `html export files` folder for easier project navigation
 
