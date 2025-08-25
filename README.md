@@ -6,7 +6,7 @@ With 3 events, and some clever setting, the game can set the thumbstick controll
 
 ## How it works:
 
-The entire system relies on the interaction of 2 different Construct 3 objects:
+The entire system relies on the interaction of 2 different Construct objects:
 - The sprite named **thumbstick01**
 - The 8 instances of the sprite named **directionMarker**
 
@@ -16,7 +16,12 @@ The 8 **directionMarker** sprites are set in a circle around **thumbstick01** at
 
 Each **directionMarker** has 2 *Instance Variables:* vx and vy. These variables have 3 possible values: -1, 0, and 1. Each combination indicates the movement in the x and y direction that every **directionMarker** represents.
 
-When the player moves **thumbstick01**, C3 determines which **directionMarker** is closest and uses the vx and vy variables to calculate the correct movement direction for the 3D object **Player3D**. In event #2, C3 then assigns these values to **Player3D**’s *8Direction* Vector X and Vector Y properties, which move the 3D object accordingly.
+When the player moves **thumbstick01**, C3 determines which **directionMarker** is closest and uses the vx and vy variables to calculate the correct movement direction for the 3D object **Player3D**:
+
+In the second event, C3 takes the *Instance Variable* vx, multiplies it by the speedPlayer variable, and assigns the result to **Player3D**’s *8Direction* Vector X.
+The same process is repeated with vy, producing the value for **Player3D**’s *8Direction* Vector Y.
+
+Together, these two values define the movement direction of the **Player3D** object.
 
 
 ## Changes:
