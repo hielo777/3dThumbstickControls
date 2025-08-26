@@ -44,6 +44,8 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 - [x] Re created the exported game files
 
+- [x] Adding basic camera support, allowing the player to change the distance of the camera to the Player3D object, and also to change the altitude of the camera.
+
 ## To Do
 - [ ] Add second thumbstick functionality. Perhaps to control the camera to orbit the 3D object representing the main character
 - [ ] Add comments to the .c3p document to clarify functionality
