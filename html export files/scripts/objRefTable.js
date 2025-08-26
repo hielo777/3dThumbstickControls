@@ -34,7 +34,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Shape3D.Acts.SetZElevation,
 		C3.Plugins.Shape3D.Exps.Width,
 		C3.Plugins.Shape3D.Exps.ZHeight,
-		C3.Plugins.Shape3D.Exps.ZElevation
+		C3.Plugins.Shape3D.Exps.ZElevation,
+		C3.Plugins.System.Acts.AddVar
 	];
 };
 self.C3_JsPropNameTable = [
@@ -54,7 +55,14 @@ self.C3_JsPropNameTable = [
 	{Solid: 0},
 	{"3DShape2": 0},
 	{slope: 0},
+	{cameraHeightDelta: 0},
+	{cameraDistanceDelta: 0},
+	{cameraMarker: 0},
+	{thumbCamera: 0},
 	{cameraHeight: 0},
+	{cameraHeightMultiplier: 0},
+	{cameraDistance: 0},
+	{cameraDistanceMultiplier: 0},
 	{speedPlayer: 0},
 	{distBottom: 0},
 	{distTop: 0},
@@ -71,5 +79,7 @@ self.InstanceType = {
 	playerBase: class extends self.ISpriteInstance {},
 	Player3D: class extends self.I3DShapeInstance {},
 	_3DShape2: class extends self.I3DShapeInstance {},
-	slope: class extends self.I3DShapeInstance {}
+	slope: class extends self.I3DShapeInstance {},
+	cameraMarker: class extends self.ISpriteInstance {},
+	thumbCamera: class extends self.ISpriteInstance {}
 }
