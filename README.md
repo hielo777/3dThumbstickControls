@@ -48,6 +48,17 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 - [x] Adding a minimum distance and height for the camera controls to avoid weird angles and keep the game playable
 
+- [x] Adding a maximum distance and height for the camera controls to avoid weird angles and keep the game playable. The maximums can be adjusted with the variables maxCameraDistance and maxCameraHeight.
+
+- [x] Adding "diagonal camera controls" that allow to modify the height and distance of the camera at the same time. The logic for these diagonal controls is similar the one used to control the movement of the Player3D object, using a combination of the instance variables to modify the Y and Z attributes of the 3DCamera.
+
 ## To Do
-- [ ] Add second thumbstick functionality. Perhaps to control the camera to orbit the 3D object representing the main character
+- [ ] Add second thumbstick functionality. Perhaps to control the camera to orbit the 3D object representing the main character.
+>> This item is in progress. You can see the finished list above, and some camera control functionality has been added.
+
 - [ ] Add comments to the .c3p document to clarify functionality
+
+- [ ] Improve the slopes functionality to:
+> Allow the player jump
+> Allow the player go to multiple levels
+> Better support for going up and down the slopes. Currently is quite basic and the player can get stuck in the wrong height after leaving a slope on the side
