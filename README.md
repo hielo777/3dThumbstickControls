@@ -2,7 +2,7 @@
 
 This project showcases how to create a simple and effective thumbstick controller for 3D objects in Construct 3.
 
-With 3 events, and some clever setting, the game can set the thumbstick controller, that can be used in any touch-screen device.
+With 4 events, and some clever setting, the game can set the thumbstick controller, that can be used in any touch-screen device.
 
 ## How it works:
 
@@ -18,7 +18,7 @@ Each **directionMarker** has 2 *Instance Variables:* vx and vy. These variables 
 
 When the player moves **thumbstick01**, C3 determines which **directionMarker** is closest and uses the vx and vy variables to calculate the correct movement direction for the 3D object **Player3D**:
 
-In the second event, C3 takes the *Instance Variable* vx, multiplies it by the speedPlayer variable, and assigns the result to **Player3D**’s *8Direction* Vector X.
+In the third event, C3 takes the *Instance Variable* vx, multiplies it by the speedPlayer variable, and assigns the result to **Player3D**’s *8Direction* Vector X.
 The same process is repeated with vy, producing the value for **Player3D**’s *8Direction* Vector Y.
 
 Together, these two values define the movement direction of the **Player3D** object.
