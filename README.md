@@ -1,10 +1,12 @@
-# 3d Thumbstick Controls in Construct 3
+<a id="readme-top"></a>
+
+# 🕹️ 3d Thumbstick Controls in Construct 3
 
 This project showcases how to create a simple and effective thumbstick controller for 3D objects in Construct 3.
 
 With 4 events, and some clever setting, the game can set the thumbstick controller, that can be used in any touch-screen device.
 
-## How it works:
+## ⚙️ How it works:
 
 The entire system relies on the interaction of 2 different Construct objects:
 - The sprite named **thumbstick01**
@@ -23,8 +25,10 @@ The same process is repeated with vy, producing the value for **Player3D**’s *
 
 Together, these two values define the movement direction of the **Player3D** object.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Changes:
+
+## 🔀 Changes:
 - [x] The `Basic Version` folder includes two builds that focus exclusively on thumbstick functionality, with slopes and other refinements removed. These streamlined versions are designed for easier integration into other games
 
 - [x] Moved all the html files to the `html export files` folder for easier project navigation
@@ -52,7 +56,9 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 - [x] Adding "diagonal camera controls" that allow to modify the height and distance of the camera at the same time. The logic for these diagonal controls is similar the one used to control the movement of the Player3D object, using a combination of the instance variables to modify the Y and Z attributes of the 3DCamera.
 
-## To Do
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📋 To Do
 - [ ] Add second thumbstick functionality. Perhaps to control the camera to orbit the 3D object representing the main character.
 >> This item is in progress. You can see the finished list above, and some camera control functionality has been added.
 
@@ -62,3 +68,5 @@ Together, these two values define the movement direction of the **Player3D** obj
 > Allow the player jump
 > Allow the player go to multiple levels
 > Better support for going up and down the slopes. Currently is quite basic and the player can get stuck in the wrong height after leaving a slope on the side
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
