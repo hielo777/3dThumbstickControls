@@ -2,7 +2,7 @@
 
 # 🕹️ 3d Thumbstick Controls in Construct 3
 
-This project showcases how to create a simple and effective thumbstick controller for 3D objects in Construct 3.
+This project showcases how to create a simple and effective thumbstick controller for 3D objects in [Construct 3](https://www.construct.net/en).
 
 With 4 events, and some clever setting, the game can set the thumbstick controller, that can be used in any touch-screen device.
 
