@@ -8,7 +8,7 @@ With 4 events and some clever settings, the game can set the thumbstick controll
 
  ## ⚙️ How it works:
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;Template Game Logic <small style="color:#3199e1;">(Click the arrow for full explanation)</small></summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;Template Game Logic <small style="color:orangered;">(Click the arrow for full explanation)</small></summary>
 
 The entire system relies on the interaction of 2 different Construct objects:
 - The sprite named **thumbstick01**
@@ -32,7 +32,7 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 ## 🔀 Changes:
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;Implemented Changes <small style="color:#3199e1;">(Click the arrow for full explanation)</small></summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;Implemented Changes <small style="color:orangered;">(Click the arrow for full explanation)</small></summary>
 
 - [x] The `Basic Version` folder includes two builds that focus exclusively on thumbstick functionality, with slopes and other refinements removed. These streamlined versions are designed for easier integration into other games
 
@@ -67,7 +67,7 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 ## 📋 To Do
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;Roadmap and musings <small style="color:#3199e1;">(Click the arrow for full explanation)</small></summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;Roadmap and musings <small style="color:orangered;">(Click the arrow for full explanation)</small></summary>
 
 - [ ] Add second thumbstick functionality. Perhaps to control the camera to orbit the 3D object representing the main character.
 >> This item is in progress. You can see the finished list above, and some camera control functionality has been added.
