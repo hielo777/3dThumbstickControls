@@ -4,7 +4,7 @@
 
 This project showcases how to create a simple and effective thumbstick controller for 3D objects in [Construct 3](https://www.construct.net/en).
 
-With 4 events, and some clever setting, the game can set the thumbstick controller, that can be used in any touch-screen device.
+With 4 events and some clever settings, the game can set the thumbstick controller, which can be used on any touchscreen device.
 
  ## ⚙️ How it works:
 <details>
@@ -16,7 +16,7 @@ The entire system relies on the interaction of 2 different Construct objects:
 
 The **thumbstick01** has the *"Drag and Drop"* behavior and can be moved on the screen by the player.
 
-The 8 **directionMarker** sprites are set in a circle around **thumbstick01** at 45 degrees inclination difference. 
+The 8 **directionMarker** sprites are set in a circle around **thumbstick01** at 45-degree inclination difference. 
 
 Each **directionMarker** has 2 *Instance Variables:* vx and vy. These variables have 3 possible values: -1, 0, and 1. Each combination indicates the movement in the x and y direction that every **directionMarker** represents.
 
@@ -44,14 +44,14 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 - [x] Improved the rotation of the 3D object reflecting the thumbstick movement
 
-- [x] Added solid objects. This is to showcase the basics of a possible 3D based game using the thumbstick
+- [x] Added solid objects. This is to showcase the basics of a possible 3D-based game using the thumbstick
 
 - [x] Added basic 3D slopes functionalities.
 > The initial 3D slopes projects can be found at: https://github.com/hielo777/3DSlopes
 
-- [x] Eliminated the older Player object out of the screen to make it less intrusive
+- [x] Eliminated the older Player object from the screen to make it less intrusive
 
-- [x] Re created the exported game files
+- [x] Re-created the exported game files
 
 - [x] Adding basic camera support, allowing the player to change the distance of the camera to the Player3D object, and also to change the altitude of the camera
 
@@ -59,7 +59,7 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 - [x] Adding a maximum distance and height for the camera controls to avoid weird angles and keep the game playable. The maximums can be adjusted with the variables maxCameraDistance and maxCameraHeight.
 
-- [x] Adding "diagonal camera controls" that allow to modify the height and distance of the camera at the same time. The logic for these diagonal controls is similar the one used to control the movement of the Player3D object, using a combination of the instance variables to modify the Y and Z attributes of the 3DCamera.
+- [x] Adding "diagonal camera controls" that allow for modifying the height and distance of the camera at the same time. The logic for these diagonal controls is similar the one used to control the movement of the Player3D object, using a combination of the instance variables to modify the Y and Z attributes of the 3DCamera.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
