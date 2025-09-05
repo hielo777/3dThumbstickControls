@@ -1,14 +1,20 @@
 <a id="readme-top"></a>
 
+![Status](https://img.shields.io/badge/status-under--development-yellow)
+![GitHub last commit](https://img.shields.io/github/last-commit/hielo777/3dThumbstickControls)
+
 # 🕹️ 3d Thumbstick Controls in Construct 3
 
 This project showcases how to create a simple and effective thumbstick controller for 3D objects in [Construct 3](https://www.construct.net/en).
 
 With 4 events and some clever settings, the game can set the thumbstick controller, which can be used on any touchscreen device.
 
+***
+
  ## ⚙️ How it works:
+
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;Template Game Logic <small style="color:orangered;">(Click the arrow for full explanation)</small></summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;Template Game Logic <small>(Click here for full explanation)</small></summary>
 
 The entire system relies on the interaction of 2 different Construct objects:
 - The sprite named **thumbstick01**
@@ -30,9 +36,11 @@ Together, these two values define the movement direction of the **Player3D** obj
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </details>
 
+***
+
 ## 🔀 Changes:
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;Implemented Changes <small style="color:orangered;">(Click the arrow for full explanation)</small></summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;Implemented Changes <small>(Click here for full explanation)</small></summary>
 
 - [x] The `Basic Version` folder includes two builds that focus exclusively on thumbstick functionality, with slopes and other refinements removed. These streamlined versions are designed for easier integration into other games
 
@@ -65,9 +73,11 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 </details>
 
+***
+
 ## 📋 To Do
 <details>
-<summary>&nbsp;&nbsp;&nbsp;&nbsp;Roadmap and musings <small style="color:orangered;">(Click the arrow for full explanation)</small></summary>
+<summary>&nbsp;&nbsp;&nbsp;&nbsp;Roadmap and musings <small>(Click here for full explanation)</small></summary>
 
 - [ ] Add second thumbstick functionality. Perhaps to control the camera to orbit the 3D object representing the main character.
 >> This item is in progress. You can see the finished list above, and some camera control functionality has been added.
