@@ -1,6 +1,10 @@
 <a id="readme-top"></a>
 
 ![Status](https://img.shields.io/badge/status-under--development-yellow)
+![Made with Construct 3](https://img.shields.io/badge/built%20with-Construct%203-blue?logo=construct3)
+![License](https://img.shields.io/badge/license-TBD-lightgrey)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+[![Play in Browser](https://img.shields.io/badge/Play--Now-Browser-green?logo=google-chrome&logoColor=white)](https://<your-username>.github.io/WordGame/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hielo777/3dThumbstickControls)
 
 # 🕹️ 3d Thumbstick Controls in Construct 3
@@ -8,6 +12,8 @@
 This project showcases how to create a simple and effective thumbstick controller for 3D objects in [Construct 3](https://www.construct.net/en).
 
 With 4 events and some clever settings, the game can set the thumbstick controller, which can be used on any touchscreen device.
+
+![Thumbstick Controls Preview](controlsDemo.gif)  
 
 ***
 
@@ -75,7 +81,7 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 ***
 
-## 📋 To Do
+## 📋 To Do:
 <details>
 <summary>&nbsp;&nbsp;&nbsp;&nbsp;Roadmap and musings <small>(Click here for full explanation)</small></summary>
 
