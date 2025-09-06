@@ -13,7 +13,9 @@ This project showcases how to create a simple and effective thumbstick controlle
 
 With 4 events and some clever settings, the game can set the thumbstick controller, which can be used on any touchscreen device.
 
-<p align="center"> ![Thumbstick Controls Preview](controlsDemo.gif)  </p>
+<div align="center">
+  <img src="controlsDemo.gif">
+</div>
 
 ***
 
