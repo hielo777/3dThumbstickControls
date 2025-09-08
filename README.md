@@ -17,6 +17,8 @@ With 4 events and some clever settings, the game can set the thumbstick controll
   <img src="controlsDemo.gif">
 </div>
 
+A million thanks to the [Construct community](https://www.construct.net/en/forum) and to the kind people of [Scirra](https://www.construct.net/en).
+
 ***
 
  ## ⚙️ How it works:
@@ -41,7 +43,7 @@ The same process is repeated with vy, producing the value for **Player3D**’s *
 
 Together, these two values define the movement direction of the **Player3D** object.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">⬆ back to top ⬆</a>)</p>
 </details>
 
 ***
@@ -77,7 +79,7 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 - [x] Adding "diagonal camera controls" that allow for modifying the height and distance of the camera at the same time. The logic for these diagonal controls is similar the one used to control the movement of the Player3D object, using a combination of the instance variables to modify the Y and Z attributes of the 3DCamera.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">⬆ back to top ⬆</a>)</p>
 
 </details>
 
@@ -97,5 +99,5 @@ Together, these two values define the movement direction of the **Player3D** obj
 > Allow the player go to multiple levels
 > Better support for going up and down the slopes. Currently is quite basic and the player can get stuck in the wrong height after leaving a slope on the side
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">⬆ back to top ⬆</a>)</p>
 </details>
