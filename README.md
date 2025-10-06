@@ -4,7 +4,7 @@
 ![Made with Construct 3](https://img.shields.io/badge/built%20with-Construct%203-blue?logo=construct3)
 ![License](https://img.shields.io/badge/license-TBD-lightgrey)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
-[![Play in Browser](https://img.shields.io/badge/Play--Now-Browser-green?logo=google-chrome&logoColor=white)](https://<your-username>.github.io/WordGame/)
+[![Play in Browser](https://img.shields.io/badge/Play--Now-Browser-green?logo=google-chrome&logoColor=white)](https://hielo777.github.io/3dThumbstickControls/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hielo777/3dThumbstickControls)
 
 # 🕹️ 3d Thumbstick Controls in Construct 3
@@ -43,7 +43,7 @@ The same process is repeated with vy, producing the value for **Player3D**’s *
 
 Together, these two values define the movement direction of the **Player3D** object.
 
-<p align="right">(<a href="#readme-top">⬆ back to top ⬆</a>)</p>
+<p align="right">(<a href="#readme-top">⬆  back to top  ⬆</a>)</p>
 </details>
 
 ***
@@ -79,7 +79,7 @@ Together, these two values define the movement direction of the **Player3D** obj
 
 - [x] Adding "diagonal camera controls" that allow for modifying the height and distance of the camera at the same time. The logic for these diagonal controls is similar the one used to control the movement of the Player3D object, using a combination of the instance variables to modify the Y and Z attributes of the 3DCamera.
 
-<p align="right">(<a href="#readme-top">⬆ back to top ⬆</a>)</p>
+<p align="right">(<a href="#readme-top">⬆  back to top  ⬆</a>)</p>
 
 </details>
 
@@ -99,5 +99,7 @@ Together, these two values define the movement direction of the **Player3D** obj
 > Allow the player go to multiple levels
 > Better support for going up and down the slopes. Currently is quite basic and the player can get stuck in the wrong height after leaving a slope on the side
 
-<p align="right">(<a href="#readme-top">⬆ back to top ⬆</a>)</p>
+<p align="right">(<a href="#readme-top">⬆  back to top  ⬆</a>)</p>
 </details>
+
+<p align="left">(<a href="#readme-top">⬆  back to top  ⬆</a>)</p>
