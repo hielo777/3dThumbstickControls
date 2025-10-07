@@ -13,9 +13,12 @@ This project showcases how to create a simple and effective thumbstick controlle
 
 With 4 events and some clever settings, the game can set the thumbstick controller, which can be used on any touchscreen device.
 
+<a href="https://hielo777.github.io/ThumbControlPage/">
 <div align="center">
-  <img src="controlsDemo.gif">
+  <img src="controlsDemo.gif"/>
+  <p><small>Click here to try the demo</small></p>
 </div>
+</a>
 
 A million thanks to the [Construct community](https://www.construct.net/en/forum) and to the kind people of [Scirra](https://www.construct.net/en).
 
