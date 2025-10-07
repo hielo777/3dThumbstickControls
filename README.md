@@ -15,7 +15,7 @@ With 4 events and some clever settings, the game can set the thumbstick controll
 
 <a href="https://hielo777.github.io/ThumbControlPage/">
 <div align="center">
-  <img src="controlsDemo.gif"/>
+  <img src="controlsDemo.gif">
   <p><small>Click here to try the demo</small></p>
 </div>
 </a>
